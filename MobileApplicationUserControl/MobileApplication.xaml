@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="MobileApplicationUserControl.MobileApplication"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MobileApplicationUserControl"
+             mc:Ignorable="d" Height="166" Width="115">
+    <Grid Margin="0,-13,-10,0">
+        <Rectangle Fill="White"  Stroke="Black"/>
+        <Button Background="Blue" Content="View Details" Margin="10,130,10,10" Click="Button_Click"/>
+       
+        <!-- <Image Width="100" Margin="8,7,7,43" Source="/WhatsApp Image 2022-10-05 at 6.15.02 PM (1).jpeg" />-->
+
+    </Grid>
+</UserControl>
